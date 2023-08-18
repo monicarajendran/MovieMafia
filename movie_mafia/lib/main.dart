@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:movie_mafia/Home/home_page.dart';
 
 void main() {
   runApp(const MovieMafia());
@@ -14,7 +15,7 @@ class MovieMafia extends StatefulWidget {
 
 class _MovieMafiaState extends State<MovieMafia> {
 
-List<Widget> data = [const Text("Home")];
+List<Widget> data = [const HomePage()];
 
   @override
   Widget build(BuildContext context) {
